@@ -1,8 +1,8 @@
 #pragma once
 using namespace std;
 class Member{
-    std::list<Member*>follows;
-    std::list<Member*>followers;
+    list<Member*>follows;
+    list<Member*>followers;
     //std::vector<Member*> follows;
     //std::vector<Member*>::iterator pfs;
     //std::vector<Member*> followers;
