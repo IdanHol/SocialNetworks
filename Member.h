@@ -1,3 +1,4 @@
+#include <list>
 #pragma once
 using namespace std;
 class Member{
