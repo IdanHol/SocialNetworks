@@ -13,7 +13,7 @@ Member::Member(){
      * If yes it's doesn't do nothing,if not it's add this
      */ 
 void Member:: follow(Member &m){
-    if(std::find(std::begin(follows),std::end(follows),&m)==std::end(follows)){//Check the term
+    if(std::find(std::begin(follows),std::end(follows),&m)==std::end(follows)&&m!=this){//Check the term
     follows.push_front(&m);
     m.followers.push_front(this);
     }
