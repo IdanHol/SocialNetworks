@@ -1,12 +1,12 @@
-#pragma once
+#include <iostream>
+#include <list>
+#include <vector>
+#include <iterator>
+#include <algorithm>
 using namespace std;
 class Member{
-    std::list<Member*>follows;
-    std::list<Member*>followers;
-    //std::vector<Member*> follows;
-    //std::vector<Member*>::iterator pfs;
-    //std::vector<Member*> followers;
-    //std::vector<Member*>::iterator pfers;
+    list<Member*>follows;
+    list<Member*>followers;
     static int counter;
     
     public:
