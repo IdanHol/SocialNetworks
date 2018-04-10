@@ -3,7 +3,7 @@
 #include <vector>
 #include <iterator>
 #include <algorithm>
-#include "Member.cpp"
+#include "Member.h"
 using namespace std;
 
 Member avi, beni, chana;
