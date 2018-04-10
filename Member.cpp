@@ -1,8 +1,3 @@
-#include <iostream>
-#include <list>
-#include <vector>
-#include <iterator>
-#include <algorithm>
 #include "Member.h"
 using namespace std;
 
